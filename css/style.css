@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Redressed', cursive;
+font-family: 'Titillium Web', sans-serif;
 }
 
 html, body {
@@ -17,7 +19,7 @@ html, body {
     width: 20%;
     height: 100%;
     position: fixed;
-    background-color: #f709eb23;
+    background-color: #f677fd;
 }
 
 .img-sidebar {
@@ -32,7 +34,7 @@ html, body {
 
 .img-sidebar img{
     width: 70%;
-    border: 6px solid #f709b023;
+    border: 6px solid #ff81e5;
     border-radius: 50%;
 }
 .menu {
@@ -72,10 +74,44 @@ section.descricao {
 }
 
 section.descricao  h2 {
-    color: #343a40;
+    color: gray;
     font-size: 46px;
 }
 
-section.descricao  h2 > span {
-    color: #f709eb23;
+section.descricao  h2 > span,
+section.descricao  h3 > span  {
+    color: #ff81e5;
+}
+
+section.descricao  h3 {
+    margin: 15px 0;
+    color: gray ;
+    font-size: 26px;
+}
+
+section.descricao p {
+    color: gray;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.icon-social{
+    margin-top: 20px;
+}
+
+.icon-social a{
+    text-decoration: none;
+    color: white;
+    background-color: #08a4ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    
+}
+
+.icon-social i {
+    line-height: 40px;
 }
